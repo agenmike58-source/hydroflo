@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="184" height="184" rx="32" fill="#0a1628"/>
+  <!-- Water drop -->
+  <path d="M100 35 C100 35 62 85 62 112 C62 134 79 152 100 152 C121 152 138 134 138 112 C138 85 100 35 100 35Z" fill="url(#g1)" opacity="0.85"/>
+  <!-- Pipe cross inside -->
+  <rect x="92" y="88" width="16" height="40" rx="3" fill="#0a1628" opacity="0.7"/>
+  <rect x="80" y="100" width="40" height="16" rx="3" fill="#0a1628" opacity="0.7"/>
+  <!-- Flow lines -->
+  <path d="M50 165 Q68 155 86 165 Q104 175 122 165 Q140 155 150 165" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M55 175 Q73 167 91 175 Q109 183 127 175 Q145 167 155 175" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+</svg>
